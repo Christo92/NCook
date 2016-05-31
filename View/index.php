@@ -147,6 +147,7 @@
                     <a class="menu_active" id="menu_recette" href="">Recettes</a>
                     <a id="menu_favoris" href="">Favoris</a>
                 </nav>
+
                 <div id="les_ingredients">
                     <ul>
                         <li class="ing">4 tartines de pain complet <a href=""><img class="plusingredients" src="../img/plusingredients.png"></a>
@@ -174,9 +175,12 @@
                         <li><span>étape 3</span><br><br><p>Caesaream, quam ad honorem Octaviani principis exaedificavit Herodes, et Eleutheropolim et Neapolim itidemque Ascalonem Gazam aevo superiore exstructas. Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae.</p></li>
                     </ul>
                 </div>
-                
+
             </div>
         </div>
     </section>
+
+    <script src="../js/jquery-1.11.3-jquery.min.js"></script>
+    <script src="../js/scripts.js"></script>
 </body>
 </html>
