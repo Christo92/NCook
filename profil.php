@@ -1,8 +1,8 @@
-<?php require_once '../includes/header.php' ?>
+<?php require_once 'includes/header.php' ?>
 
     <section id="content_profil">
         <div id="profil_left">
-            <img src="../img/member10.png">
+            <img src="img/member10.png">
             <p id="nom">Marine</p>
             <p id="lieu">Paris - Amateur</p>
             <a href="">S'abonner</a>
@@ -23,15 +23,15 @@
             </nav>
             <div id="profil_recette">
                 <div class="widget_recette">
-                    <div class="widget_photo" style="background-image: url(../img/plats/02.jpg);"></div>
+                    <div class="widget_photo" style="background-image: url(img/plats/02.jpg);"></div>
                     <a class="widget_title" href="">Omelette avocat</a>
                     <div class="widget_infos">
                         <ul>
-                            <li><img src="../img/coeur.png"></li>
+                            <li><img src="img/coeur.png"></li>
                             <li>20</li>
                         </ul>
                         <ul>
-                            <li><img src="../img/pen.png"></li>
+                            <li><img src="img/pen.png"></li>
                             <li>12</li>
                         </ul>
                     </div>
@@ -41,11 +41,11 @@
                     <a class="widget_title" href="">Hamburger</a>
                     <div class="widget_infos">
                         <ul>
-                            <li><img src="../img/coeur.png"></li>
+                            <li><img src="img/coeur.png"></li>
                             <li>15</li>
                         </ul>
                         <ul>
-                            <li><img src="../img/pen.png"></li>
+                            <li><img src="img/pen.png"></li>
                             <li>4</li>
                         </ul>
                     </div>
@@ -55,45 +55,45 @@
                     <a class="widget_title" href="">Salade crevettes</a>
                     <div class="widget_infos">
                         <ul>
-                            <li><img src="../img/coeur.png"></li>
+                            <li><img src="img/coeur.png"></li>
                             <li>34</li>
                         </ul>
                         <ul>
-                            <li><img src="../img/pen.png"></li>
+                            <li><img src="img/pen.png"></li>
                             <li>9</li>
                         </ul>
                     </div>
                 </div>
                 <div class="widget_recette">
-                    <div class="widget_photo" style="background-image: url(../img/plats/05.jpg);"></div>
+                    <div class="widget_photo" style="background-image: url(img/plats/05.jpg);"></div>
                     <a class="widget_title" href="">Boeuf épicé</a>
                     <div class="widget_infos">
                         <ul>
-                            <li><img src="../img/coeur.png"></li>
+                            <li><img src="img/coeur.png"></li>
                             <li>23</li>
                         </ul>
                         <ul>
-                            <li><img src="../img/pen.png"></li>
+                            <li><img src="img/pen.png"></li>
                             <li>34</li>
                         </ul>
                     </div>
                 </div>
                 <div class="widget_recette">
-                    <div class="widget_photo" style="background-image: url(../img/plats/06.jpg);"></div>
+                    <div class="widget_photo" style="background-image: url(img/plats/06.jpg);"></div>
                     <a class="widget_title" href="">Oeuf entrée</a>
                     <div class="widget_infos">
                         <ul>
-                            <li><img src="../img/coeur.png"></li>
+                            <li><img src="img/coeur.png"></li>
                             <li>34</li>
                         </ul>
                         <ul>
-                            <li><img src="../img/pen.png"></li>
+                            <li><img src="img/pen.png"></li>
                             <li>3</li>
                         </ul>
                     </div>
                 </div>
                 <div class="widget_add">
-                    <a href=""><img src="../img/plusblanc.png"></a>
+                    <a href=""><img src="img/plusblanc.png"></a>
                     <a id="add_new" href="">Nouvelle Recette</a>
                 </div>
             </div>
