@@ -124,4 +124,3 @@ class USER
 		return true;
 	}
 }
-?>

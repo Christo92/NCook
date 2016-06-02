@@ -1,11 +1,11 @@
 <?php
 session_start();
-require_once('../Controller/class.user.php');
+require_once('Controller/class.user.php');
 $user = new USER();
 
 if($user->is_loggedin()!="")
 {
-    $user->redirect('../View/compte.php');
+    $user->redirect('compte.php');
 }
 
 if(isset($_POST['btn-signup']))

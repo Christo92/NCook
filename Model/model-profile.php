@@ -1,8 +1,8 @@
 <?php
 
-require_once("session.php");
+require_once("./session.php");
 
-require_once("../Controller/class.user.php");
+require_once("Controller/class.user.php");
 $auth_user = new USER();
 
 
