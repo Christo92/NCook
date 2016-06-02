@@ -1,11 +1,11 @@
 <?php
 session_start();
-require_once("../Controller/class.user.php");
+require_once("Controller/class.user.php");
 $login = new USER();
 
 if($login->is_loggedin()!="")
 {
-    $login->redirect('../View/compte.php');
+    $login->redirect('compte.php');
 }
 
 if(isset($_POST['btn-login']))
@@ -16,11 +16,10 @@ if(isset($_POST['btn-login']))
 
     if($login->doLogin($uname,$umail,$upass))
     {
-        $login->redirect('../View/compte.php');
+        $login->redirect('compte.php');
     }
     else
     {
         $error = "Mauvais éléments";
     }
 }
-?>
