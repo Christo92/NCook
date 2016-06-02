@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="widget_recette">
-                    <div class="widget_photo" style="background-image: url(../img/plats/03.jpg);"></div>
+                    <div class="widget_photo" style="background-image: url(img/plats/03.jpg);"></div>
                     <a class="widget_title" href="">Hamburger</a>
                     <div class="widget_infos">
                         <ul>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="widget_recette">
-                    <div class="widget_photo" style="background-image: url(../img/plats/04.jpg);"></div>
+                    <div class="widget_photo" style="background-image: url(img/plats/04.jpg);"></div>
                     <a class="widget_title" href="">Salade crevettes</a>
                     <div class="widget_infos">
                         <ul>
