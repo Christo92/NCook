@@ -582,7 +582,6 @@
         min-width: 450px;
         overflow-x: hidden;
         overflow-y: scroll;
-        display: none;
     }
 
     #recette_left{
