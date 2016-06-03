@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: antoinefloris
- * Date: 27/05/2016
- * Time: 11:29
- */
+<?php require_once 'includes/header.php' ?>
+<img src="img/Accueilc.png" style="width:100%;">
+
+</body>
+</html>

@@ -27,10 +27,10 @@
         <ul id="nav">
             <li><a href="#"><img src="img/home.png" alt="homepage"></a></li>
             <li><a href="#">MENUS</a></li>
-            <li><a href="#" class="recette">RECETTES</a></li>
+            <li><a href="recherche.php">RECETTES</a></li>
             <li><a href="#">NOUVEAUTÉS</a></li>
             <li><a href="#">RECETTES DE SAISONS</a></li>
-            <li><a href="#">COMMUNAUTÉ</a></li>
+            <li><a href="votes.php">COMMUNAUTÉ</a></li>
             <li><a href="#">ASTUCES</a></li>
             <li><a href="#">RECETTES ALÉATOIRES</a></li>
         </ul>
