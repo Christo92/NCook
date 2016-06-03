@@ -1,50 +1,52 @@
-// Toggle sur la boite modal
-// Ouvre la boite
-$('.recette').click(function () {
-    $('#fiche_recette').show();
-    $('body').css({
-        'overflow' : 'hidden'
-    });
-    $('#filtre_anim').show().css({
-        backgroundColor : '#000000'
+$('body').ready(function () {
+
+
+    //bouton like
+    $(".like i").click(function () {
+        $(".like i").toggleClass("likeactive", 1000);
     });
 
-});
+    //favoris
 
-// Ferme la boite
-$('.cross').click(function (e) {
-    e.preventDefault();
-    $('body').css({
-        'overflow' : 'scroll'
+     // $(".flaticon-star").click(function () {
+     // $(this).toggleClass("likeactive", 1000);
+     // });
+
+    $(".modale").on("click", ".flaticon-star", function () {
+        $(this).toggleClass("likeactive", 1000);
     });
-    $('#fiche_recette').hide();
-    $('#filtre_anim').hide();
-});
 
-// Fonction qui permet de style de l'élément
-function getStyleCSS(elem, style){
-    var element = document.querySelector(elem);
-    return getComputedStyle(element,null).getPropertyValue(style);
-}
 
-// Toggle sur recettes et favoris après avoir ouvert la boite modal
-$('#menu_recette').click(function (e) {
-    e.preventDefault();
-    var styleElement = getStyleCSS('#les_ingredients', 'display');
-    if(styleElement == 'none'){
-        $('.menu_active').removeClass('menu_active');
-        $('#les_etapes').hide();
-        $('#les_ingredients').show();
-    }
-    $(this).addClass('menu_active');
-});
 
-// Toggle sur recettes et favoris après avoir ouvert la boite modal
-$('#menu_favoris').click(function (e) {
-    e.preventDefault();
-    $('.menu_active').removeClass('menu_active');
-    $('#les_ingredients').hide();
-    $('#les_etapes').show();
-    $(this).addClass('menu_active');
+
+    //favoris profil
+    $(".fav-profil").click(function () {
+        $(this).toggleClass("likeactive", 1000);
+    });
+
+
+    //MODALE
+
+    //cacher la modale
+
+    //charger et afficher modale si elle n'est pas déjà charger
+    $(".entreeMarine").click(function () {
+        var element = $("#fiche_recette");
+        if (element.length > 0) {
+            $("#fiche_recette").show();
+        } else {
+            $.ajax({
+                url: "includes/recette1.php"
+            }).done(function (rep) {
+                $(rep).appendTo(".modale");
+            });
+        }
+        console.log(element.length);
+    });
+
+    $(".modale").on("click", ".cross", function () {
+        $("#fiche_recette").hide();
+    });
+
 });
 

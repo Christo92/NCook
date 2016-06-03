@@ -7,20 +7,20 @@
     <title>Cook</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="icon" type="image/png" href="img/logo.png"/>
+    <link rel="icon" type="image/png" href="assets/img/logo.png"/>
 </head>
 <body id="home">
 <header>
     <div id="header">
         <div id="logo">
-            <h1><a href="index.php"><img id="logoimg" src="img/logo.png"></a></h1>
+            <h1><a href="index.php"><img id="logoimg" src="assets/img/logo.png"></a></h1>
             <a id="logo_nom" href="index.php">N'Cook</a>
         </div>
         <div id="access">
             <div id="recherche">
                 <input type="text" name="search" value="" placeholder="Recherchez">
             </div>
-            <a class="nouvelle_recette_header" href=""><img id="smallplusrouge" src="img/plusrouge.png">Nouvelle Recette</a>
+            <a class="nouvelle_recette_header" href=""><img id="smallplusrouge" src="assets/img/plusrouge.png">Nouvelle Recette</a>
             <div class="dropdown">
                 <button class="dropbtn"><?php echo $userRow['user_name']; ?>&nbsp;</button>
                 <div class="dropdown-content">
@@ -35,7 +35,7 @@
 
     <nav>
         <ul id="nav">
-            <li><a href="#"><img src="img/home.png" alt="homepage"></a></li>
+            <li><a href="#"><img src="assets/img/home.png" alt="homepage"></a></li>
             <li><a href="#">MENUS</a></li>
             <li><a href="#">RECETTES</a></li>
             <li><a href="#">NOUVEAUTÉS</a></li>
@@ -50,7 +50,7 @@
 
 <section id="content_profil">
     <div id="profil_left">
-        <img src="img/member10.png">
+        <img src="assets/img/member10.png">
         <p id="nom">Marine</p>
         <p id="lieu">Paris - Amateur</p>
         <a href="">S'abonner</a>
@@ -71,77 +71,77 @@
         </nav>
         <div id="profil_recette">
             <div class="widget_recette">
-                <div class="widget_photo" style="background-image: url(img/plats/02.jpg);"></div>
+                <div class="widget_photo" style="background-image: url(assets/img/plats/02.jpg);"></div>
                 <a class="widget_title" href="">Omelette avocat</a>
                 <div class="widget_infos">
                     <ul>
-                        <li><img src="img/coeur.png"></li>
+                        <li><img src="assets/img/coeur.png"></li>
                         <li>20</li>
                     </ul>
                     <ul>
-                        <li><img src="img/pen.png"></li>
+                        <li><img src="assets/img/pen.png"></li>
                         <li>12</li>
                     </ul>
                 </div>
             </div>
             <div class="widget_recette">
-                <div class="widget_photo" style="background-image: url(img/plats/03.jpg);"></div>
+                <div class="widget_photo" style="background-image: url(assets/img/plats/03.jpg);"></div>
                 <a class="widget_title" href="">Hamburger</a>
                 <div class="widget_infos">
                     <ul>
-                        <li><img src="img/coeur.png"></li>
+                        <li><img src="assets/img/coeur.png"></li>
                         <li>15</li>
                     </ul>
                     <ul>
-                        <li><img src="img/pen.png"></li>
+                        <li><img src="assets/img/pen.png"></li>
                         <li>4</li>
                     </ul>
                 </div>
             </div>
             <div class="widget_recette">
-                <div class="widget_photo" style="background-image: url(img/plats/04.jpg);"></div>
+                <div class="widget_photo" style="background-image: url(assets/img/plats/04.jpg);"></div>
                 <a class="widget_title" href="">Salade crevettes</a>
                 <div class="widget_infos">
                     <ul>
-                        <li><img src="img/coeur.png"></li>
+                        <li><img src="assets/img/coeur.png"></li>
                         <li>34</li>
                     </ul>
                     <ul>
-                        <li><img src="img/pen.png"></li>
+                        <li><img src="assets/img/pen.png"></li>
                         <li>9</li>
                     </ul>
                 </div>
             </div>
             <div class="widget_recette">
-                <div class="widget_photo" style="background-image: url(img/plats/05.jpg);"></div>
+                <div class="widget_photo" style="background-image: url(assets/img/plats/05.jpg);"></div>
                 <a class="widget_title" href="">Boeuf épicé</a>
                 <div class="widget_infos">
                     <ul>
-                        <li><img src="img/coeur.png"></li>
+                        <li><img src="assets/img/coeur.png"></li>
                         <li>23</li>
                     </ul>
                     <ul>
-                        <li><img src="img/pen.png"></li>
+                        <li><img src="assets/img/pen.png"></li>
                         <li>34</li>
                     </ul>
                 </div>
             </div>
             <div class="widget_recette">
-                <div class="widget_photo" style="background-image: url(img/plats/06.jpg);"></div>
+                <div class="widget_photo" style="background-image: url(assets/img/plats/06.jpg);"></div>
                 <a class="widget_title" href="">Oeuf entrée</a>
                 <div class="widget_infos">
                     <ul>
-                        <li><img src="img/coeur.png"></li>
+                        <li><img src="assets/img/coeur.png"></li>
                         <li>34</li>
                     </ul>
                     <ul>
-                        <li><img src="img/pen.png"></li>
+                        <li><img src="assets/img/pen.png"></li>
                         <li>3</li>
                     </ul>
                 </div>
             </div>
             <div class="widget_add">
-                <a href=""><img src="img/plusblanc.png"></a>
+                <a href=""><img src="assets/img/plusblanc.png"></a>
                 <a id="add_new" href="">Nouvelle Recette</a>
             </div>
         </div>
