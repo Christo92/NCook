@@ -6,17 +6,11 @@ $('body').ready(function () {
         $(".like i").toggleClass("likeactive", 1000);
     });
 
-
-
-
-
     //favoris
 
-    /*
-     $(".flaticon-star").click(function () {
-     $(this).toggleClass("likeactive", 1000);
-     });
-     */
+     // $(".flaticon-star").click(function () {
+     // $(this).toggleClass("likeactive", 1000);
+     // });
 
     $(".modale").on("click", ".flaticon-star", function () {
         $(this).toggleClass("likeactive", 1000);

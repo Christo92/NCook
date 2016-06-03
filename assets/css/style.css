@@ -710,6 +710,10 @@
         cursor: pointer;
     }
 
+    .likeactive{
+        color: #EC2E04 !important;
+    }
+
     .share a img{
         width: 22px;
         margin: 5px 10px;
