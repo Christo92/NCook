@@ -1,5 +1,5 @@
 <?php require_once 'includes/header.php' ?>
-    <img src="img/Desktop.png" style="width:100%;">
+    <img src="assets/img/desktop.png" style="width:100%;">
 
 </body>
 </html>

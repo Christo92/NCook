@@ -11,7 +11,7 @@
 <body>
 
 <div id="logo">
-    <a id="logo_nom" href="index.php"><img id="logoimg" src="img/logo.png">&nbsp;N'Cook</a>
+    <a id="logo_nom" href="index.php"><img id="logoimg" src="assets/img/logo.png">&nbsp;N'Cook</a>
 </div>
 
 <div class="signin-form">

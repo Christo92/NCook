@@ -582,7 +582,6 @@
         min-width: 450px;
         overflow-x: hidden;
         overflow-y: scroll;
-        display: none;
     }
 
     #recette_left{
@@ -709,6 +708,10 @@
         color: #EC2E04;
         transition: color 0.5s;
         cursor: pointer;
+    }
+
+    .likeactive{
+        color: #EC2E04 !important;
     }
 
     .share a img{
